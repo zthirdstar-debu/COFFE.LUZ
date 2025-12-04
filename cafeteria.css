@@ -1,0 +1,210 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #774226;
+}
+.menu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px ;
+    background:#ad623a;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.menu nav{
+    display:flex;
+    gap: 20px;
+    align-items:center;
+}
+.menu a{
+    padding:8px 16px;
+    border:none;
+    color:#d6cbcb;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:100;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo{
+    padding:8px 16px;
+    color:#ccb8b0;
+    border-radius:8px;
+    cursor:pointer;
+    font-weight:800;
+    text-decoration: none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    
+}
+.fondo{
+   height: 100vh;
+    background: url(https://www.canchacafe.com/wp-content/uploads/2023/01/Canchacafe%CC%81-Blog.jpg) center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 200px;
+    position: relative;
+
+}
+.fondo::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.233);
+    z-index: 1;
+
+}
+
+.info{
+    padding:8px 16px;
+    border:none;
+    color:#f0eeee;
+    border-radius:8px;
+    cursor:pointer;
+    font-size: 29px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/*seccion2*/
+.section2{
+    background-color: #ecd7b7;
+    max-width: 600px;
+    margin:auto ;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contenido{
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.section2 h1{
+    font-size: 40px;
+    color: #774226;
+}
+.somos{
+    background-color: #ffffff;
+    height: 650;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    box-shadow: 1px 1px 8px 0.1px rgb(161, 151, 147);
+}
+.somos img{
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+
+}
+.MV{
+    background-color: #ecd7b7;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    box-shadow: 1px 1px 8px 0.1px rgb(161, 151, 147);
+}
+.mision{
+    background-color: #ffffff;
+    height: 650;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    box-shadow: 1px 1px 8px 0.1px rgb(161, 151, 147);
+
+}
+.vision{
+    background-color: #ffffff;
+    height: 50;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    box-shadow: 1px 1px 8px 0.1px rgb(161, 151, 147);
+
+}
+/*SECCION3*/
+.section3{
+    background-color: #ecd7b7;
+    max-width: 800px;
+    margin:auto ;
+    text-align: center;
+    padding: 20px;
+    
+}
+.contenido2{
+    padding-top: 20px;
+
+    display: flex;
+    flex-direction: column ;
+    gap: 16px;
+
+}
+.c1{
+    background-color: #ffffff;
+    height: 350;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    box-shadow: 1px 1px 8px 0.1px rgb(161, 151, 147);
+}
+    
+.c1 img{
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+
+
+}
+.cont1{
+    background-color: #ecd7b7;
+    
+    display: flex;
+    align-items: center;
+   
+    overflow: hidden;
+    gap: 15px;
+    
+
+}
+.cont2{
+  
+    height: 300px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    gap: 15px;
+    
+
+}
+.c1 a{
+    display: inline-block;
+    margin: 0px;
+    padding: 5px;
+    background-color: #9c8559;
+    color: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600px;
+    transition: background-color 0.4s;
+}
+    
